@@ -1,16 +1,17 @@
-import React from 'react';
-import './Header.css';
+import React from "react";
+import "./Header.css";
 
 const HeaderContainer = () => {
-    return (
-
-        <
-        div > < img src = {
-            'https://tk-assets.lambdaschool.com/1c1b7262-cf23-4a9f-90b6-da0d3c74a5c6_lambdacrest.png '
+  return (
+    <header>
+      {" "}
+      <img
+        src={
+          "https://tk-assets.lambdaschool.com/1c1b7262-cf23-4a9f-90b6-da0d3c74a5c6_lambdacrest.png "
         }
-        /> </div >
-    )
-
-}
+      />{" "}
+    </header>
+  );
+};
 
 export default HeaderContainer;
