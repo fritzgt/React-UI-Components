@@ -1,16 +1,12 @@
 import React from "react";
 import "./App.css";
 import HeaderContainer from "./components/HeaderComponents/HeaderContainer";
-import HeaderTitle from "./components/HeaderComponents/HeaderTitle";
-import HeaderContent from "./components/HeaderComponents/HeaderContent";
 import CardContainer from "./components/CardComponents/CardContainer";
 
 const App = () => {
   return (
     <div>
       <HeaderContainer />
-      <HeaderTitle />
-      <HeaderContent />
       <CardContainer />
       {/* <h3> Welcome to React Social Card! </h3>{" "}
       <p>
