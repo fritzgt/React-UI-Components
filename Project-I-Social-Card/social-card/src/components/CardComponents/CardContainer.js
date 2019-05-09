@@ -1,10 +1,13 @@
-import React from 'react';
-import './Card.css';
+import React from "react";
+import "./Card.css";
+import CardBanner from "./CardBanner";
 
 const CardContainer = () => {
-    return (
-
-    )
-}
+  return (
+    <div>
+      <CardBanner />
+    </div>
+  );
+};
 
 export default CardContainer;
