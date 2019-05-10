@@ -1,0 +1,41 @@
+button {
+    font-size: 70px;
+    padding: 10px;
+    text-align: center;
+    color: inherit;
+    border: 1px solid lightgray;
+    font: inherit;
+    outline: inherit;
+    width: 100%;
+
+}
+
+.button-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 450px;
+
+}
+
+.action-buttons {
+    width: 450px;
+    height: 100px;
+    font-size: 40px;
+}
+
+.number-container {
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+
+
+.number-buttons {
+    width: 150px;
+    height: 100px;
+    font-size: 40px;
+}
+
+
+/* .symbol-container {
+    position: absolute;
+} */
