@@ -3,12 +3,12 @@
     color: white;
     text-align: right;
     margin-top: 20px;
-    height: 130px;
+    /* height: 170px; */
 
 }
 
 p {
-    font-size: 70px;
+    font-size: 130px;
     padding: 40px;
     font-weight: lighter;
     display: inline;

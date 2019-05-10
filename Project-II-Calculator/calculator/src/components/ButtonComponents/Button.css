@@ -6,36 +6,63 @@ button {
     border: 1px solid lightgray;
     font: inherit;
     outline: inherit;
-    width: 100%;
+    /* width: 100%; */
+}
 
+button:active {
+    border: 3px solid lightgray;
 }
 
 .button-container {
-    display: flex;
-    flex-wrap: wrap;
-    width: 450px;
+    /* display: flex;
+    flex-wrap: wrap; */
+    /* width: 600px; */
+
 
 }
 
 .action-buttons {
     width: 450px;
-    height: 100px;
+    height: 150px;
     font-size: 40px;
 }
-
-.number-container {
-    display: flex;
-    flex-wrap: wrap-reverse;
-}
-
 
 .number-buttons {
     width: 150px;
-    height: 100px;
+    height: 150px;
     font-size: 40px;
 }
 
 
-/* .symbol-container {
-    position: absolute;
-} */
+.number-container {
+    /* display: flex; */
+    /* flex-wrap: wrap-reverse; */
+    /* width: 450px; */
+}
+
+
+
+.prop-cont {
+    /* display: flex;
+    justify-content: right;
+    width: 150px; */
+
+}
+
+
+.symb-container {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    /* position: absolute;
+    right: 30%;
+    top: 14.4%; */
+
+
+}
+
+.symb {
+    background-color: darkred;
+    color: white;
+
+}

@@ -2,9 +2,9 @@ import React from "react";
 
 const Text = props => {
   return (
-    <div>
+    <span className="prop-cont">
       <button className={props.buttonStyle}> {props.text} </button>
-    </div>
+    </span>
   );
 };
 
