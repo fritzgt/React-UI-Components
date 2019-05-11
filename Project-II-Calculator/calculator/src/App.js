@@ -4,10 +4,15 @@ import CalculatorDisplay from "./components/DisplayComponents/CalculatorDisplay"
 import NumberButton from "./components/ButtonComponents/NumberButton";
 
 class App extends React.Component {
+  constructor() {
+    super();
+    this.state = { value: 1000 };
+  }
+
   render() {
     return (
       <div className="main">
-        <CalculatorDisplay />
+        <CalculatorDisplay value={this.state.value} />
         <NumberButton />
       </div>
     );
