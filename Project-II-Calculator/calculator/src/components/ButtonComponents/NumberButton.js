@@ -3,42 +3,35 @@ import "./Button.css";
 import Text from "./Text";
 import ActionButton from "./ActionButton";
 
-// const arrNumb = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-// const arrSymb = ["÷", "X", "—", "+", "="];
+// Array to pass the numbers to props
+const arrNumb = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+// Array to pass the symbols to props
+const arrSymb = ["÷", "X", "—", "+", "="];
 
 const NumberButton = () => {
   return (
-    <span>
-      <Text text={"÷"} buttonStyle={"number-buttons symb"} />
-      <Text text={9} buttonStyle={"number-buttons"} />
-      <Text text={8} buttonStyle={"number-buttons"} />
-      <Text text={7} buttonStyle={"number-buttons"} />
-      <Text text={"X"} buttonStyle={"number-buttons symb"} />
-      <Text text={6} buttonStyle={"number-buttons"} />
-      <Text text={5} buttonStyle={"number-buttons"} />
-      <Text text={4} buttonStyle={"number-buttons"} />
-      <Text text={"—"} buttonStyle={"number-buttons symb"} />
-      <Text text={3} buttonStyle={"number-buttons"} />
-      <Text text={2} buttonStyle={"number-buttons"} />
-      <Text text={1} buttonStyle={"number-buttons"} />
-      <Text text={"+"} buttonStyle={"number-buttons symb"} />
-      <ActionButton action={"0"} />
-      <Text text={"="} buttonStyle={"number-buttons symb"} />
+    <span className="button-container">
+      {/* Numbers container */}
+      <div className="number-container">
+        <ActionButton action={"0"} />
+
+        {/* Numbers props */}
+        {arrNumb.map(i => (
+          <Text text={i} key={i} buttonStyle={"number-buttons"} />
+        ))}
+        <ActionButton action={"Clear"} />
+      </div>
+
+      {/* Symbols  container */}
+      <div className="symb-container">
+        {/* Symbols props */}
+        {arrSymb.map(i => (
+          <Text text={i} key={i} buttonStyle={"number-buttons symb"} />
+        ))}
+      </div>
     </span>
   );
 };
 
 export default NumberButton;
-
-{
-  /* <div className="symb-container">
-        {arrSymb.map(i => (
-          <Text text={i} key={i} buttonStyle={"number-buttons symb"} />
-        ))}
-      </div>
-      <div className="number-container">
-        {arrNumb.map(i => (
-          <Text text={i} key={i} buttonStyle={"number-buttons"} />
-        ))}
-      </div> */
-}

@@ -3,41 +3,43 @@ button {
     padding: 10px;
     text-align: center;
     color: inherit;
-    border: 1px solid lightgray;
+    border: 1px solid #979797;
     font: inherit;
     outline: inherit;
     /* width: 100%; */
 }
 
 button:active {
-    border: 3px solid lightgray;
+    border: 3px solid #979797;
 }
 
 .button-container {
-    /* display: flex;
-    flex-wrap: wrap; */
-    /* width: 600px; */
+    display: flex;
+    /* flex-wrap: wrap; */
+    width: 100%;
+    max-width: 500px;
 
 
 }
 
 .action-buttons {
-    width: 450px;
-    height: 150px;
+    width: 337.5px;
+    height: 95px;
     font-size: 40px;
 }
 
 .number-buttons {
-    width: 150px;
-    height: 150px;
+    width: 112.5px;
+    height: 95px;
     font-size: 40px;
 }
 
 
 .number-container {
-    /* display: flex; */
-    /* flex-wrap: wrap-reverse; */
-    /* width: 450px; */
+    width: 337.5px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+
 }
 
 
@@ -53,16 +55,10 @@ button:active {
 .symb-container {
     display: flex;
     flex-direction: column;
-    width: 150px;
-    /* position: absolute;
-    right: 30%;
-    top: 14.4%; */
-
-
+    width: 112.5px;
 }
 
 .symb {
-    background-color: darkred;
+    background-color: #A0011E;
     color: white;
-
 }
