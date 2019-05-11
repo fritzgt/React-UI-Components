@@ -15,3 +15,8 @@ class App extends React.Component {
 }
 
 export default App;
+
+// const getVal = () => {
+//   const val = document.querySelectorAll(".number-buttons").value;
+//   console.log(val);
+// };

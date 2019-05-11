@@ -24,7 +24,7 @@ const NumberButton = () => {
       </div>
 
       {/* Symbols  container */}
-      <div className="symb-container">
+      <div>
         {/* Symbols props */}
         {arrSymb.map(i => (
           <Text text={i} key={i} buttonStyle={"number-buttons symb"} />

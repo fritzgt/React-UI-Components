@@ -1,12 +1,10 @@
 button {
     font-size: 70px;
     padding: 10px;
-    text-align: center;
     color: inherit;
     border: 1px solid #979797;
     font: inherit;
     outline: inherit;
-    /* width: 100%; */
 }
 
 button:active {
@@ -15,11 +13,6 @@ button:active {
 
 .button-container {
     display: flex;
-    /* flex-wrap: wrap; */
-    width: 100%;
-    max-width: 500px;
-
-
 }
 
 .action-buttons {
@@ -39,24 +32,8 @@ button:active {
     width: 337.5px;
     display: flex;
     flex-wrap: wrap-reverse;
-
 }
 
-
-
-.prop-cont {
-    /* display: flex;
-    justify-content: right;
-    width: 150px; */
-
-}
-
-
-.symb-container {
-    display: flex;
-    flex-direction: column;
-    width: 112.5px;
-}
 
 .symb {
     background-color: #A0011E;
