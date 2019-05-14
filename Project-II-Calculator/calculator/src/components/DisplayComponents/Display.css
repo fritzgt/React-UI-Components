@@ -1,0 +1,14 @@
+.display {
+    background-color: #232323;
+    color: #FFFFFF;
+    text-align: right;
+    margin-top: 20px;
+}
+
+p {
+    font-size: 70px;
+    padding: 15px;
+    line-height: 125px;
+    font-weight: lighter;
+    display: inline;
+}

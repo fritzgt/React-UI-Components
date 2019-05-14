@@ -1,1 +1,15 @@
 /* All styles for your header Components live here */
+header {
+    display: flex;
+}
+
+
+div img {
+    height: 50px;
+    padding: 10px;
+}
+
+.time-stamp {
+    color: gray;
+
+}

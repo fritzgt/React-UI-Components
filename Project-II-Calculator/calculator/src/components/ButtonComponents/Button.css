@@ -1,0 +1,41 @@
+button {
+    font-size: 70px;
+    padding: 10px;
+    color: inherit;
+    border: 1px solid #979797;
+    font: inherit;
+    outline: inherit;
+}
+
+button:active {
+    border: 3px solid #979797;
+}
+
+.button-container {
+    display: flex;
+}
+
+.action-buttons {
+    width: 337.5px;
+    height: 95px;
+    font-size: 40px;
+}
+
+.number-buttons {
+    width: 112.5px;
+    height: 95px;
+    font-size: 40px;
+}
+
+
+.number-container {
+    width: 337.5px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+
+
+.symb {
+    background-color: #A0011E;
+    color: white;
+}
